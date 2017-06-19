@@ -61,7 +61,7 @@ exports.setHostVariable = (env) => {
 /**
  * Get file name
  * @param {string} env Environment name (dev/prod)
- * @return {string}  
+ * @return {string}
  */
 function getFileName(env) {
   return env === 'dev' ? 'start' : 'build';
@@ -102,9 +102,7 @@ function getUpdatedScript(env, data) {
       /\.REACT_APP_HOST.+?;/,
       `.REACT_APP_HOST = '${host}';`);
   } else {
-    updatedScript = data.replace(
-      `'use strict';`,
-      `'use strict';\n\nprocess.env.REACT_APP_HOST = '${host}';`);
+    updatedScript = `process.env.REACT_APP_HOST = '${host}';\n${data}`;
   }
 
   return updatedScript;
