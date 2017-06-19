@@ -15,7 +15,7 @@ exports.updateConnectConfig = (baseUrl) => {
 
     config.baseUrl = baseUrl;
     config.links = {
-      config: path.join(baseUrl, 'atlassian-connect.json')
+      config: `${baseUrl}/atlassian-connect.json`
     };
 
     fs.writeFile(configPath, JSON.stringify(config, null, 2), (err, result) => {
