@@ -8,5 +8,5 @@ util.setHostVariable('dev');
 
 ngrok.connect(3000, (err, url) => {
   util.updateConnectConfig(url);
-  ncp.copy(`${url}/atlassian-connect.json`)
+  ncp.copy(`${url}/atlassian-connect.json`);
 });
