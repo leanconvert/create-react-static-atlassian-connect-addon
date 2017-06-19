@@ -6,9 +6,9 @@
     "name": "My name",
     "url": "My URL"
   },
-  "baseUrl": "https://cc9f0be6.ngrok.io",
+  "baseUrl": "",
   "links": {
-    "config": "https:/cc9f0be6.ngrok.io/atlassian-connect.json"
+    "config": ""
   },
   "authentication": {
     "type": "none"
