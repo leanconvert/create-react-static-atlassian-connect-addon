@@ -2,6 +2,13 @@
   "name": "create-react-app-atlassian-connect-addon",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "react app boilerplate",
+    "atlassian connect addon",
+    "atlassian connect",
+    "jira addon",
+    "confluence addon"
+  ],
   "atlassian-connect-dev-instance-host": "dev-example.atlassian.net",
   "atlassian-connect-prod-instance-host": "example.atlassian.net",
   "atlassian-connect-addon-home": "https://example.com/",
