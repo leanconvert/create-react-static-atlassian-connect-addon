@@ -7,8 +7,7 @@
     "atlassian-connect-addon",
     "atlassian-connect",
     "jira-addon",
-    "confluence-addon",
-    "bitbucket-addon"
+    "confluence-addon"
   ],
   "atlassian-connect-dev-instance-host": "dev-example.atlassian.net",
   "atlassian-connect-prod-instance-host": "example.atlassian.net",
