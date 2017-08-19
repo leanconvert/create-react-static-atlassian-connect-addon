@@ -62,7 +62,7 @@ The addon's initial structure will look like the following:
     index.html
     manifest.json
   scripts/
-    pre-start.js           
+    pre-start.js
     pre-build.js
     util.js
   src/
@@ -77,11 +77,11 @@ The addon's initial structure will look like the following:
 
 It contains all the files from the create-react-app initial structure plus some Atlassian Addon specific ones.
 
-## New Files
+## Atlassian Specific Files
 
-### atlassian-addon.json 
+### atlassian-addon.json
 
-`atlassian-addon.json` is an Atlassian Addon Descriptor - visit [official Atlassian documentation] for more info.
+`atlassian-addon.json` is an Atlassian Addon Descriptor - visit [official Atlassian documentation](https://developer.atlassian.com/static/connect/docs/latest/modules/) for more info.
 
 ### scripts/pre-start.js
 
@@ -104,7 +104,7 @@ It contains all the files from the create-react-app initial structure plus some 
 
 Contains helper functions to be used in `pre-start.js` and `pre-build.js` scripts.
 
-## Edited Files
+## Atlassian Specific Tweaks
 
 ### package.json
 
