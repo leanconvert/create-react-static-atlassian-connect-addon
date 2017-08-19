@@ -15,7 +15,7 @@
   },
   "scopes": [
     "READ",
-    "WHITE"
+    "WRITE"
   ],
   "modules": {
     "generalPages": [
