@@ -31,13 +31,13 @@ Specify the following properties:
 
 `atlassian-addon.json` is an Atlassian Addon Descriptor - visit [official Atlassian documentation](https://developer.atlassian.com/static/connect/docs/latest/modules/) for more info.
 
-### Start Development
+## Start Development
 
 ```shell
 npm start
 ```
 
-### Upload Addon
+## Upload Addon
 
 + Go to `https://<YOUR-DEV-INSTANCE-NAME>.atlassian.net/plugins/servlet/upm`
 + Click "Upload add-on"
