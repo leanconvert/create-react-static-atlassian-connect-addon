@@ -4,7 +4,7 @@
   "description": "My awesome addon description",
   "vendor": {
     "name": "My name",
-    "url": "My URL"
+    "url": "www.example.com"
   },
   "baseUrl": "",
   "links": {
