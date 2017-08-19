@@ -1,10 +1,14 @@
 # create-react-static-atlassian-connect-addon
 
-A boilerplate for static [Atlassian Connect addons](https://developer.atlassian.com/static/connect/docs/latest/index.html) built on top of [create-react-app](https://github.com/facebookincubator/create-react-app).
+A boilerplate for static Jira / Confluence [Atlassian Connect addons](https://developer.atlassian.com/static/connect/docs/latest/index.html) built on top of [create-react-app](https://github.com/facebookincubator/create-react-app).
 
 # Quick Start
 
 Create Atlassian Connect addon just in a few minutes.
+
+## Get Development Jira Version
+
+Follow instruction on the [developer.atlassian.com](https://developer.atlassian.com/static/connect/docs/latest/guides/development-setup.html#cloud-dev)
 
 ## Install
 
@@ -37,7 +41,7 @@ Specify the following properties:
 npm start
 ```
 
-## Upload Addon
+## Upload Addon (Jira / Confluence)
 
 + Go to `https://<YOUR-DEV-INSTANCE-NAME>.atlassian.net/plugins/servlet/upm`
 + Click "Upload add-on"
