@@ -1,4 +1,4 @@
-# create-react-app-atlassian-connect-addon
+# create-react-static-atlassian-connect-addon
 
 A boilerplate for static [Atlassian Connect addons](https://developer.atlassian.com/static/connect/docs/latest/index.html) built on top of [create-react-app](https://github.com/facebookincubator/create-react-app).
 
@@ -9,7 +9,7 @@ Create Atlassian Connect addon just in a few minutes.
 ## Install
 
 ```shell
-git clone https://github.com/leanconvert/create-react-app-atlassian-connect-addon.git <YOUR-ADDON-NAME>
+git clone https://github.com/leanconvert/create-react-static-atlassian-connect-addon.git <YOUR-ADDON-NAME>
 cd <YOUR-ADDON-NAME>
 rm -rf .git
 npm i
