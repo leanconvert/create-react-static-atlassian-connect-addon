@@ -6,6 +6,8 @@ A boilerplate for static Jira / Confluence [Atlassian Connect addons](https://de
 
 Create Atlassian Connect addon just in a few minutes.
 
+![Create Atlassian Connect addon](readme_assets/jira-addon.gif)
+
 ## Get Development Jira Version
 
 Follow instruction on the [developer.atlassian.com](https://developer.atlassian.com/static/connect/docs/latest/guides/development-setup.html#cloud-dev)
