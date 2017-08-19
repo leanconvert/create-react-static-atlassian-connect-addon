@@ -12,7 +12,7 @@ Create Atlassian Connect addon just in a few minutes.
 
 Follow instruction on the [developer.atlassian.com](https://developer.atlassian.com/static/connect/docs/latest/guides/development-setup.html#cloud-dev)
 
-## Install
+## Setup Addon Project
 
 ```shell
 git clone https://github.com/leanconvert/create-react-static-atlassian-connect-addon.git <YOUR-ADDON-NAME>
