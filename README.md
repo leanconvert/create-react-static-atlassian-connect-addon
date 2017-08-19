@@ -45,38 +45,6 @@ npm start
 
 Now you are all set! Use all the benefits of the `react-create-app` tooling developing an awesome Atlassian add-on.
 
-# Boilerplate Structure
-
-The addon's initial structure will look like the following:
-
-```
-<YOUR-ADDON-NAME>
-  README.md
-  node_modules/
-  package.json
-  .gitignore
-  .editorconfig
-  public/
-    atlassian-connect.json
-    favicon.ico
-    index.html
-    manifest.json
-  scripts/
-    pre-start.js
-    pre-build.js
-    util.js
-  src/
-    App.css
-    App.js
-    App.test.js
-    index.css
-    index.js
-    logo.svg
-    registerServiceWorker.js
-```
-
-It contains all the files from the create-react-app initial structure plus some Atlassian Addon specific ones.
-
 ## Atlassian Specific Files
 
 ### atlassian-addon.json
